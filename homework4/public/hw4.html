@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sqlite</title>
+    <style>
+        
+        div{
+            text-align: center;
+            
+        }
+        pre{
+            width:80%;
+            height:250px;
+            margin:auto;
+            border:1px solid black;
+            background-color: white;
+        }
+        textarea{
+            width:80%;
+            height:150px;
+            margin:auto;
+        }
+        button{
+            width: 80px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(215, 243, 250);">
+    <div>
+        <h1>Manager</h1>
+        <textarea id="command" placeholder="command"></textarea><br>
+        <button id="submit" onclick="sqlRun()">start</button>
+    </div>
+    <div>
+        <h2>result</h2>
+        <pre id="resultJson">
+
+        </pre>
+    </div>
+    <script>
+    </script>
+</body>
+</html>
